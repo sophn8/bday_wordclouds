@@ -15,7 +15,6 @@ output:
 ```{r setup}
 library(genius)
 
-# Get songlyrics using Genius lyrics package
 arc_mon_am <- genius_album(artist = "Arctic Monkeys", album = "AM")
 ```
 
@@ -152,7 +151,7 @@ g_monkey_top_terms
 ```{r wordcloud, warning=FALSE}
 library(wordcloud)
 
-# Wordcloud for three studio albums
+# Wordcloud for AM
 monkey_cloud <- wordcloud(corpus, max.words = 70, random.order = FALSE, ordered.clouds = TRUE)
 ```
 
