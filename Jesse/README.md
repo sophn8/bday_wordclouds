@@ -10,7 +10,7 @@ output:
 
 ![Jesse](/Jesse/img/IMG_7571.jpeg)
 
-![AM](/img/am.jpeg)
+![AM](/Jesse/img/am.jpeg)
 
 ```{r setup}
 library(genius)
@@ -45,7 +45,7 @@ tidy_monkey <- arc_mon_am %>%
 
 tidy_monkey
 ```
-![1](/img/1.png)
+![1](/Jesse/img/1.png)
 
 
 # Sentiment Analysis II
@@ -74,7 +74,7 @@ tidy_monkey_2 <- arc_mon_am %>%
 
 tidy_monkey_2
 ```
-![2](/img/2.png)
+![2](/Jesse/img/2.png)
 
 
 # Tidying the Data with tm package
@@ -144,7 +144,7 @@ g_monkey_top_terms <- monkey_top_terms %>%
 
 g_monkey_top_terms
 ```
-![3](/img/3.png)
+![3](/Jesse/img/3.png)
 
 
 # In Defense of Wordclouds
@@ -156,4 +156,4 @@ library(wordcloud)
 monkey_cloud <- wordcloud(corpus, max.words = 70, random.order = FALSE, ordered.clouds = TRUE)
 ```
 
-![4](/img/4.png)
+![4](/Jesse/img/4.png)
