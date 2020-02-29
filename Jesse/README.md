@@ -10,6 +10,17 @@ output:
 
 ![Jesse](/Jesse/img/IMG_7571.jpeg)
 
+Dear Jesse,
+
+Check out my code at https://tinyurl.com/jesseis28
+
+Thank you in advance for cooking my hamburgers very-"still bleeding"-rare in George's absence. Thank you for your coding advice. You are my best friend's boyfriend so I have to like you because she likes you. But I also appreciate you for being MY friend too. And buying the Waxahatchee tickets. And liking Lucy Dacus, Mitski, Phoebe Bridgers, and Julien Baker too. And girly pop music like Carly Rae Jepsen.
+
+
+Best,
+
+Sophia
+
 ![AM](/Jesse/img/am.jpeg)
 
 ```{r setup}
