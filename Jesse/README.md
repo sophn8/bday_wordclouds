@@ -8,7 +8,7 @@ output:
 ---
 # Happy Birthday JESSE
 
-![Jesse](/img/IMG_7571.jpeg)
+![Jesse](/Jesse/img/IMG_7571.jpeg)
 
 ![AM](/img/am.jpeg)
 
