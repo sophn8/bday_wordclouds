@@ -104,7 +104,7 @@ sent_tswift_bing <- tswift_lyrics %>%
 # binary view 
 sent_tswift_bing
 ```
-![1](/img/1.png)
+![1](/TSwift/img/1.png)
 
 # Disaggregating by Album 
 
@@ -134,9 +134,9 @@ tswift_lyrics_bing_3
 tswift_lyrics_bing_2
 ```
 
-![2](/img/2.png)
+![2](/TSwift/img/2.png)
 
-![3](/img/3.png)
+![3](/TSwift/img/3.png)
 
 
 The `bing` lexicon allows us to see unigram text as a positive or negative binary. This isn't as illustrative of the other lexicons. However, to answer our question-- is Taylor Swift getting more angsty?-- the `bing` lexicon offers a straightforward answer. 
@@ -164,7 +164,7 @@ tswift_bing_plot <- tswift_lyrics_2_bing_sent %>%
 tswift_bing_plot
 ```
 
-![4](/img/4.png)
+![4](/TSwift/img/4.png)
 
 In my pursuit of understanding Taylor Swift's lyrical angst over time, I settled upon looking at the raw numbers. A raw number analysis isn't that telling, however. As Taylor Swift's musical prowess matured, so did the number of tracks per record and words per song. I do note a particular peak with "1989" with 304 individual words being connotated as negative. On the other hand, "Fearless" was the least negative with only 114 words presumed to be negative. 
 
@@ -184,7 +184,7 @@ tswift_lyrics_2_bing_sent_album_plot <- tswift_lyrics_2_bing_sent_album %>%
 tswift_lyrics_2_bing_sent_album_plot
 ```
 
-![5](/img/5.png)
+![5](/TSwift/img/5.png)
 
 Another angle to answer my question is to consider the ratios of negative and positive words in relation to total lyrics per album. Taylor Swift's latest studio album, "Lover" was actually more positive than negative. Overall, there are neutral (or even) sentiments, on average, within each of her albums.  
 
@@ -202,7 +202,7 @@ tswift_lyrics_2_bing_sent_grouped_plot <- ggplot(tswift_lyrics_2_bing_sent_group
 tswift_lyrics_2_bing_sent_grouped_plot
 ```
 
-![6](/img/6.png)
+![6](/TSwift/img/6.png)
 
 
 
