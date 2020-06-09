@@ -5,6 +5,9 @@ date: "6/8/2020"
 output: html_document
 ---
 
+![old_taylor](/TSwift/img/old_taylor.jpg)
+
+
 # Is T. Swift getting angstier? 
 
 From country starlet to pop star to angsty singer, Taylor Swift's 2017 studio album, "Reputation" earned her a reputation for being edgy. As described by [Billboard](https://www.billboard.com/photos/429884/taylor-swift-style-evolution-photos), "During her Reputation era, Swift shows she’s not to be messed with. She shimmers on stage with her sequined snakeskin top, black shorts and black Christian Louboutin leather boots."
