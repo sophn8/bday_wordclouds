@@ -1,7 +1,7 @@
 ---
 title: "TSwift"
 author: "Sophia Ng"
-date: "6/8/2020"
+date: "9/8/2019"
 output: html_document
 ---
 
@@ -211,4 +211,4 @@ tswift_lyrics_2_bing_sent_grouped_plot
 
 ## Conclusion
 
-The Billboard article cited "Reputation" as Taylor Swift's angsty turning point. However, my analysis suggests that Swift's angst might actually have been more lyrcially present via her "1989" record. 
+The Billboard article cited "Reputation" as Taylor Swift's angsty turning point. However, my analysis suggests that Swift's angst might actually have been more lyrically present via her "1989" record. 
