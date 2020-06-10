@@ -10,7 +10,7 @@ output: html_document
 
 # Is T. Swift getting angstier? 
 
-From country starlet to pop star to angsty singer, Taylor Swift's 2017 studio album, "Reputation" earned her a reputation for being edgy. As described by [Billboard](https://www.billboard.com/photos/429884/taylor-swift-style-evolution-photos), "During her Reputation era, Swift shows she’s not to be messed with. She shimmers on stage with her sequined snakeskin top, black shorts and black Christian Louboutin leather boots."
+From country starlet to pop star to angsty lyricist, Taylor Swift's 2017 studio album, "Reputation" earned her notoriety for being edgy. As described by [Billboard](https://www.billboard.com/photos/429884/taylor-swift-style-evolution-photos), "During her Reputation era, Swift shows she’s not to be messed with. She shimmers on stage with her sequined snakeskin top, black shorts and black Christian Louboutin leather boots."
 
 Has Taylor Swift evolved into a more edgy singer? Is it a one-off thing? What can the data-- in this case, her lyrics-- actually tell us? 
 
@@ -50,11 +50,11 @@ tswift_lyrics_2$album <- factor(tswift_lyrics_2$album, levels = c("Lover", "Repu
 
 ## A Holistic Look at Taylor Swift's Discography
 
-I decided that a sentiment analysis would be the most optimal method to research my question: has Taylor Swift become more angsty? 
+I decided that a sentiment analysis would be the most optimal method to research my question: has Taylor Swift, in fact, become more angsty? 
 
-[Merriam-Webster](https://www.merriam-webster.com/dictionary/angsty) defines "angsty" as "feeling, showing, or expressing anxiety, apprehension, or insecurity." I connotate "angst" as a negative sentiment. 
+[Merriam-Webster](https://www.merriam-webster.com/dictionary/angsty) defines "angsty" as "feeling, showing, or expressing anxiety, apprehension, or insecurity." "Angst" as a negative sentiment. 
 
-I use the `nrc` and `bing` lexicons to further understand Taylor Swift's lyrics as sentiments. The graphs are based on Taylor Swift's entire discography:
+I use the `nrc` and `bing` tidytext lexicons to further understand Taylor Swift's lyrics as sentiments. My analysis is a unigram analysis, meaning that my technique assesses each word indivdiually. The graphs below are based on Taylor Swift's entire discography as a whole:
 
  - Taylor Swift (2006)
  - Fearless (2008)
@@ -142,7 +142,7 @@ tswift_lyrics_bing_2
 ![3](/TSwift/img/3.png)
 
 
-The `bing` lexicon allows us to see unigram text as a positive or negative binary. This isn't as illustrative of the other lexicons. However, to answer our question-- is Taylor Swift getting more angsty?-- the `bing` lexicon offers a straightforward answer. 
+The `bing` lexicon allows us to see unigram text as a positive or negative binary. This isn't as illustrative of the other lexicons. However, to answer our question-- is Taylor Swift getting more angsty?-- the `bing` lexicon offers a straightforward answer. (Angsty as defined by "negative.")
 
 Taylor Swift's discography is quite neutral in tone. Based on this analysis, her lyrics are a little more positive than negative. 
 
@@ -212,3 +212,10 @@ tswift_lyrics_2_bing_sent_grouped_plot
 ## Conclusion
 
 The Billboard article cited "Reputation" as Taylor Swift's angsty turning point. However, my analysis suggests that Swift's angst might actually have been more lyrically present via her "1989" record. 
+
+There are some caveats to my research:
+
+ - My question is "Has Taylor Swift gotten more angsty?" is really interpreted as "Has Taylor Swift's songs become more negative over time?" 
+ - I used a unigram-- single word-- analysis. However, context matters. "Smile" may be viewed as a positive sentiment but "tied together with a smile" is not. 
+ - I am taking the NRC and Bing lexicons for face value. There are some limitations to assigning value to words. Read more [here](https://annieswafford.wordpress.com/2015/03/02/syuzhet/).
+ - There are different methods to compare albums across an artist's discography. I ultimately decided to look at raw count of negative words and ratios of negative words to all words. However, I considered other methods or techniques like quantitative scoring, clustering, word clouds, etc. 
