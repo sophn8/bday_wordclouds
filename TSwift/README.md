@@ -7,6 +7,8 @@ output: html_document
 
 ![old_taylor](/TSwift/img/old_taylor.jpg)
 
+Over the summer, I was driving on the I-95 from Rhode Island back to New York. Taylor Swift's "Lover" album had just been released. I decided to give it a listen. Little did I know that I would be stuck with that album on loop for the next three hours because I was driving with my phone out of reach. From that experience, I considered myself well-versed in contemporary T.Swift. This gained expertise carried into my casual conversations among friends which led to a memorable debate...
+
 
 # Is T. Swift getting angstier? 
 
@@ -52,7 +54,7 @@ tswift_lyrics_2$album <- factor(tswift_lyrics_2$album, levels = c("Lover", "Repu
 
 I decided that a sentiment analysis would be the most optimal method to research my question: has Taylor Swift, in fact, become more angsty? 
 
-[Merriam-Webster](https://www.merriam-webster.com/dictionary/angsty) defines "angsty" as "feeling, showing, or expressing anxiety, apprehension, or insecurity." "Angst" as a negative sentiment. 
+[Merriam-Webster](https://www.merriam-webster.com/dictionary/angsty) defines "angsty" as "feeling, showing, or expressing anxiety, apprehension, or insecurity." "Angst" is a negative sentiment but I'm sure there are some nuances to that. (For example, when I once identified as an "emo indie alt rocker" in high school, I thought of "angst" as "defiance" and "resistance.")
 
 I use the `nrc` and `bing` tidytext lexicons to further understand Taylor Swift's lyrics as sentiments. My analysis is a unigram analysis, meaning that my technique assesses each word indivdiually. The graphs below are based on Taylor Swift's entire discography as a whole:
 
