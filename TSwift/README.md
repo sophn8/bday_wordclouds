@@ -7,7 +7,7 @@ output: html_document
 
 ![old_taylor](/TSwift/img/old_taylor.jpg)
 
-Over the summer, I was driving on the I-95 from Rhode Island back to New York. Taylor Swift's "Lover" album had just been released. I decided to give it a listen. Little did I know that I would be stuck with that album on loop for the next three hours because I was driving with my phone out of reach. From that experience, I considered myself well-versed in contemporary T.Swift. This gained expertise carried into my casual conversations among friends which led to a memorable debate...
+Over the summer, I was driving on the I-95 from Rhode Island back to New York. Taylor Swift's "Lover" album had just been released. I decided to give it a listen. Little did I know that I would be stuck with that album on loop for the next three hours. Through that experience, I consider myself well-versed in contemporary T.Swift. My expertise carried into my casual conversations among friends which led to a memorable debate...
 
 
 # Is T. Swift getting angstier? 
